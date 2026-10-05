@@ -1,7 +1,7 @@
 const USERNAME = 'Litgit010';
 const repoGrid = document.querySelector('#repo-grid');
 const repoCount = document.querySelector('#repo-count');
-const languageColors = {JavaScript:'#f1e05a',TypeScript:'#3178c6',Python:'#3572a5',HTML:'#e34c26',CSS:'#563d7c',Jupyter:'#da5b0b',Java:'#b07219',C:'#555555',C++:'#f34b7d',Shell:'#89e051'};
+const languageColors = {JavaScript:'#f1e05a',TypeScript:'#3178c6',Python:'#3572a5',HTML:'#e34c26',CSS:'#563d7c',Jupyter:'#da5b0b',Java:'#b07219',C:'#555555','C++':'#f34b7d',Shell:'#89e051'};
 
 function escapeHTML(value='') {
   return String(value).replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));
