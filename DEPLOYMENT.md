@@ -1,9 +1,9 @@
-# Publish to leeman.com.np
+# Publish the portfolio to leeman.com.np
 
-GitHub Pages currently serves the repository root on `main`. `CNAME` points to
-`leeman.com.np` and is kept when the generated site is copied into that root.
+The `portfolio` branch contains the portfolio at its repository root. The
+`CNAME` file maps the published site to `leeman.com.np`. Keep GitHub Pages
+configured to publish from the `portfolio` branch and the `/ (root)` folder.
 
-Run `npm ci` and then `npm run publish:pages` to build and copy the prerendered
-HTML, route folders, and assets into the Pages document root. Commit and push
-those changes to `main`; GitHub Pages will publish them using the repository's
-existing configuration. The app source remains alongside the published files.
+The original Deepsky Narrative site and source remain on `main`. Do not merge
+the portfolio branch into `main` if you want to preserve that version there.
+To publish future portfolio changes, commit and push them to `portfolio`.
